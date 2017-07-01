@@ -1,14 +1,16 @@
 var axios = require('axios')
 
-export default class Monitor {
+/**
+ * Class representing your Monitor
+ */
+class Monitor {
 
     /**
      * Creates a Monitor instance capable of communicate with a Wireless Monitor
      * server located at the url you specify.
-     * @param  {String} [url='http://localhost:8000'] URL of the server
-     * @param  {String} api_key                This value specifies the user. Must be a UUID.
-     * @param  {String} monitor_key            This value specifies the device. Must be a UUID.
-     * @return {undefined}
+     * @param  {String} [url=http://localhost:8000] URL of the server
+     * @param  {String} api_key                This value specifies the user. Must be in UUID format.
+     * @param  {String} monitor_key            This value specifies the device. Must be in UUID format.
      */
     constructor({
         url = 'http://localhost:8000',
@@ -38,7 +40,7 @@ export default class Monitor {
 
     /**
      * Sends a payload to the server.
-     * @param  {Object} [payload={}] [description]
+     * @param  {Object} [payload={}] Object representing the data you wish to send
      * @return {Promise}
      */
     send(payload = {}) {
@@ -85,3 +87,5 @@ export default class Monitor {
         }
     }
 }
+
+export default Monitor

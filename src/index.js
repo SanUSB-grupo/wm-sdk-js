@@ -8,4 +8,8 @@
  */
 import Monitor from './Monitor'
 
+/**
+ * Wireless Monitor class
+ * @module wireless-monitor
+ */
 export default Monitor

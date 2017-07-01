@@ -1,21 +1,21 @@
-# Wireless Monitor SDK for JavaScript
+# Wireless Monitor SDK para JavaScript
 
-This package is a SDK (Software Development Kit) for JavaScript
-(Browser and NodeJS) to use with
-[Wireless Monitor](https://github.com/SanUSB-grupo/wireless-monitor/) app.
+Este pacote é um SDK (Software Development Kit) para JavaScript
+(Navegador e NodeJS) para usar com o aplicativo
+[Wireless Monitor](https://github.com/SanUSB-grupo/wireless-monitor/).
 
-The SDK API is based on Promises. Read more about that at:
+A API do SDK é baseada em Promises. Leia mais sobre o assunto em:
 
 * <https://github.com/mzabriskie/axios>
 * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise>
 
-## Installation
+## Instalação
 
 ```bash
 npm install --save wireless-monitor
 ```
 
-## Usage
+## Exemplo de uso
 
 ```js
 var Monitor = require('wireless-monitor')
@@ -38,7 +38,3 @@ monitor.auth()
         console.error(error)
     })
 ```
-
-## Documentation API
-
-<https://SanUSB-grupo.github.io/wm-sdk-js/en/api.html>

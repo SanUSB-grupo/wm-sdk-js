@@ -1,0 +1,17 @@
+{
+    "gitbook": ">3.0.0",
+    "plugins": [
+        "edit-link",
+        "github",
+        "page-toc"
+    ],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/SanUSB-grupo/wm-sdk-js/tree/master/docs/",
+            "label": "Edit This Page"
+        },
+        "github": {
+            "url": "https://github.com/SanUSB-grupo/wm-sdk-js"
+        }
+    }
+}
