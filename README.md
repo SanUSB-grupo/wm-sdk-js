@@ -1,5 +1,7 @@
 # Wireless Monitor SDK for JavaScript
 
+[![Build Status](https://travis-ci.org/SanUSB-grupo/wm-sdk-js.svg?branch=master)](https://travis-ci.org/SanUSB-grupo/wm-sdk-js)
+
 This package is a SDK (Software Development Kit) for JavaScript
 (Browser and NodeJS) to use with
 [Wireless Monitor](https://github.com/SanUSB-grupo/wireless-monitor/) app.
