@@ -38,7 +38,3 @@ monitor.auth()
         console.error(error)
     })
 ```
-
-## Documentation API
-
-<https://SanUSB-grupo.github.io/wm-sdk-js/en/api.html>
