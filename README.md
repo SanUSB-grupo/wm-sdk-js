@@ -13,9 +13,19 @@ The SDK API is based on Promises. Read more about that at:
 
 ## Installation
 
+For node:
+
 ```bash
 npm install --save wireless-monitor
 ```
+
+For the browser:
+
+<https://unpkg.com/wireless-monitor/dist/wireless-monitor.min.js>
+
+## Dependencies
+
+* <https://github.com/mzabriskie/axios>
 
 ## Usage
 
